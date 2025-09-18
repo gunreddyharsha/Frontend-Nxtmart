@@ -1,0 +1,46 @@
+.headerContainer {
+  background-color: #d8d8d833;
+  padding: 10px 20px;
+}
+.HeaderIMage {
+  width: 100px;
+}
+.unorderListHeaser {
+  list-style-type: none;
+  display: flex;
+}
+.Link {
+  color: #333333;
+  text-decoration: none;
+}
+.List {
+  margin-right: 30px;
+  width: 70px;
+  text-align: center;
+}
+.displaying {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.style {
+  text-align: center;
+  margin-right: 30px;
+  color: green;
+  border-top-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-color: green;
+
+  padding-bottom: 10px;
+}
+.display {
+  display: flex;
+  align-items: center;
+}
+.logOutUtton {
+  border-width: 0px;
+  background-color: transparent;
+}

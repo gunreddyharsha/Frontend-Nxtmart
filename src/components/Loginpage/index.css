@@ -1,0 +1,94 @@
+
+.loginBackground {
+  background-image: url('https://res.cloudinary.com/dnfxrt2xj/image/upload/v1755091773/Background_ryqvxp.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.loginPageimage {
+  margin-bottom: 20px;
+}
+.innerContaober {
+  background-color: white;
+  width: 511px;
+  height: 501px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 567px) {
+  .loginBackground {
+    background-image: url('https://res.cloudinary.com/dnfxrt2xj/image/upload/v1755230491/Background_1_qwftcd.png');
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  height: 40;
+  border-color: #64748b;
+  border-style: solid;
+  width: 303px;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 8px;
+  margin-top: 10px;
+  
+}
+.input {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  margin-left: 10px;
+  outline: none;
+  border-width: 0px;
+  padding: 3px;
+}
+.showpasswordContainer {
+  display: flex;
+  align-items: center;
+}
+.para {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.button {
+  width: 303px;
+  color: white;
+  background-color: #088c03;
+  border-width: 0px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.start {
+  padding: 0px;
+  margin: 3px;
+  margin-left: 13px;
+}
+.errorMsg {
+  color: red;
+  font-size: 12px;
+}
+.required{
+  color: red;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  margin-bottom: 10;
+}
+.emaiistyle{
+  border-color: red;
+}

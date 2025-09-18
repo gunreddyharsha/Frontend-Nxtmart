@@ -1,0 +1,52 @@
+.Homedisplay {
+  display: flex;
+}
+.categoriesContainer {
+  max-width: 300px;
+}
+.unorcerListHomepage {
+  list-style-type: none;
+  width: 300px;
+}
+.anchorList {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.eachList {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.newstyle {
+  background-color: green;
+  color: white;
+}
+.products-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75vw;
+  height: 80vh;
+}
+.failureView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.innerfailureContainber {
+  text-align: center;
+}
+.RetryButton {
+  background-color: green;
+  color: white;
+  border-width: 0px;
+  padding: 6px 15px;
+  border-radius: 5px;
+}
+.verticalFlow{
+   overflow-y: scroll;
+   height: 110vh;
+}

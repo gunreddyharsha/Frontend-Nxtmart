@@ -1,0 +1,63 @@
+.cartImage {
+  width: 130px;
+  height: 135px;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.cartList {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemname {
+  font-weight: 500;
+  font-size: 20px;
+  font-style: inherit;
+}
+.eachCartItem {
+  display: flex;
+  align-items: center;
+}
+.quantityCard {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: green;
+  border-color: green;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+
+  width: 70px;
+  justify-content: center;
+  margin-right: 30px;
+  padding: 0px;
+  height: 30px;
+}
+.incdecButton {
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 20px;
+}
+.deleteContainer {
+  display: flex;
+  align-items: center;
+}
+.deleteIcon {
+  font-size: 20px;
+}
+.deletebutton {
+  border-width: 0px;
+  background-color: transparent;
+  margin-right: 30px;
+}
+.horizentalLine {
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 1px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

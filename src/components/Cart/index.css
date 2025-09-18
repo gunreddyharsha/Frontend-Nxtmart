@@ -1,0 +1,36 @@
+.emptyCart {
+  width: 100px;
+}
+.emptyCartbg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.cartunorderList {
+  list-style-type: none;
+  padding: 0px;
+}
+.cartContainer {
+  margin: 50px;
+}
+.border {
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d8d8d8;
+}
+.totlaAmount {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 30px;
+}
+.cartButton {
+  margin-left: 20px;
+  padding: 6px 15px;
+  color: white;
+  background-color: green;
+  border-width: 0px;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.productsUnorderList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0px;
+}
+.eachName {
+  font-size: 25px;
+  font-weight: 500;
+}
+.productsUnorderList {
+  overflow-x: scroll;
+  width: 78vw; 
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
