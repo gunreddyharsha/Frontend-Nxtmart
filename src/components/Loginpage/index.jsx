@@ -43,14 +43,14 @@ function LoginPage(){
     email: email,       // check variable names
     password: password
   };
-
-    const res = await axios.post("https://nxtmart-backend-qgw8.onrender.com/api/login", userData,{
+   
+  const res = await axios.post("https://backend-nxtmart-2.onrender.com/login", userData,{
   headers: { "Content-Type": "application/json" }
 }); 
   
     console.log(res.data.token)
     console.log(res.data.ok)
-  
+    console.log(res)
     if(res.data.ok){    
       console.log("harsha")
       Cookies.set("jwt_token",res.data.token)
@@ -69,11 +69,12 @@ function LoginPage(){
     const userData = {
     email: email,       // check variable names
     password: password,
-    name:name
+    username:name
   };
-    const data = await axios.post("https://nxtmart-backend-qgw8.onrender.com/api/register",userData,{
+  const data = await axios.post("https://backend-nxtmart-2.onrender.com/register",userData,{
   headers: { "Content-Type": "application/json" }
 });
+console.log(data)
         if(data.data.ok){
          console.log(data.data.message)
          setverifiedregisterMessage(data.data.message)
