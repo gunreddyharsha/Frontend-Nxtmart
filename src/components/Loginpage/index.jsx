@@ -43,7 +43,7 @@ function LoginPage(){
     email: email,       // check variable names
     password: password
   };
-   
+      setverifiedmessage("Loading.....")
   const res = await axios.post("https://backend-nxtmart-2.onrender.com/login", userData,{
   headers: { "Content-Type": "application/json" }
 }); 
@@ -71,6 +71,7 @@ function LoginPage(){
     password: password,
     username:name
   };
+      setverifiedregisterMessage("loading.....")
   const data = await axios.post("https://backend-nxtmart-2.onrender.com/register",userData,{
   headers: { "Content-Type": "application/json" }
 });
